@@ -19,7 +19,7 @@ import 'package:rate/rate.dart';
 
 ## Examples
 
-![Examples](arts/example_pic.png)
+![Examples](https://github.com/pedropacheco92/rate/blob/main/arts/example_pic.png)
 
 ### Basic Rate Component
 
@@ -41,7 +41,7 @@ Rate(
 ),
 ```
 
-![Examples](arts/example_vid.gif)
+![Examples](https://github.com/pedropacheco92/rate/blob/main/arts/example_vid.gif)
 
 ### Fully customize icon
 
