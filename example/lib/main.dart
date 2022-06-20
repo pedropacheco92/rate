@@ -29,13 +29,15 @@ class MyApp extends StatelessWidget {
                 'Different size and color',
                 style: TextStyle(fontSize: 20),
               ),
-              const Rate(
+              Rate(
                 iconSize: 40,
                 color: Colors.green,
                 allowHalf: true,
                 allowClear: true,
                 initialValue: 3.5,
                 readOnly: false,
+                // ignore: avoid_print
+                onChange: (value) => print(value),
               ),
               const Spacer(),
               const Text('Custom Icons', style: TextStyle(fontSize: 20)),

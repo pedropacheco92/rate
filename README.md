@@ -1,7 +1,6 @@
 # Rate
 
 A simple star rating compnent
-![Coverage](https://raw.githubusercontent.com/pedropacheco92/rate/main/coverage_badge.svg?sanitize=true)
 
 ## Getting Started
 
@@ -31,13 +30,14 @@ const Rate()
 ### Change size, color and click behaviors
 
 ```dart
-const Rate(
+Rate(
     iconSize: 40,
     color: Colors.green,
     allowHalf: true,
     allowClear: true,
     initialValue: 3.5,
     readOnly: false,
+    onChange: (value) => print(value),
 ),
 ```
 
