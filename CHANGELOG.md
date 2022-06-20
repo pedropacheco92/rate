@@ -1,3 +1,8 @@
+## 0.0.2
+
+* Improved readme file
+
+
 ## 0.0.1
 
-* TODO: Describe initial release.
+* A simple star rating compnent
